@@ -106,6 +106,12 @@ public class latian2 extends javax.swing.JFrame {
             }
         });
 
+        biaya.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                biayaActionPerformed(evt);
+            }
+        });
+
         jLabel5.setText("Semester");
 
         jLabel6.setText("Nilai Kehadiran");
@@ -455,6 +461,10 @@ hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJurusan\t
     private void totalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_totalActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_totalActionPerformed
+
+    private void biayaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biayaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_biayaActionPerformed
 
     /**
      * @param args the command line arguments

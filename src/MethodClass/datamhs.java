@@ -25,7 +25,7 @@ public class datamhs {
             System.out.println("======================");
             System.out.println("1. Input data");
             System.out.println("2. Tampil Data");
-            System.out.println("Keluar Program");
+            System.out.println("3. Keluar Program");
             System.out.println("=====================");
             
             System.out.print("Pilih Menu?");
@@ -59,7 +59,7 @@ public class datamhs {
                         System.out.println("Nama: "+MHS[x].getNama());
                         System.out.println("Nilai UTS:"+MHS[x].getUts());
                         System.out.println("Nilai UAS:"+MHS[x].getUas());
-                        System.out.println("Nilai Nil Akhir"+MHS[x].getNilAkhir());
+                        System.out.println("Nilai Nilai Akhir :"+MHS[x].getNilAkhir());
                         System.out.println("Nilai Grade: "+MHS[x].getGrade());
                         x++;
                     }

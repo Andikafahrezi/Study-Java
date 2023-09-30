@@ -61,6 +61,12 @@ public class hitung extends javax.swing.JFrame {
             }
         });
 
+        jml.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmlActionPerformed(evt);
+            }
+        });
+
         jButton1.setText("HITUNG");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -286,6 +292,10 @@ public class hitung extends javax.swing.JFrame {
         else
             jml3.setText(""); 
     }//GEN-LAST:event_cb03ActionPerformed
+
+    private void jmlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmlActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jmlActionPerformed
 
     /**
      * @param args the command line arguments
