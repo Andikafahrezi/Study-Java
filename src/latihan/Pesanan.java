@@ -11,9 +11,10 @@ package latihan;
  */
 public class Pesanan extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Pesanan
-     */
+    private final pembayaran pbr = new pembayaran();
+    private final pembayaran nbr = new pembayaran();
+    
+    
     public Pesanan() {
         initComponents();
     }
@@ -110,6 +111,11 @@ public class Pesanan extends javax.swing.JFrame {
         jLabel6.setText("Total Bayar");
 
         jButton1.setText("OK");
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton1MouseClicked(evt);
+            }
+        });
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -117,6 +123,11 @@ public class Pesanan extends javax.swing.JFrame {
         });
 
         jButton2.setText("BAYAR");
+        jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton2MouseClicked(evt);
+            }
+        });
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -305,6 +316,19 @@ public class Pesanan extends javax.swing.JFrame {
         pembayaran Tampil=new pembayaran();
         Tampil.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+        // TODO add your handling code here:
+        nbr.setData(bayar);
+        pbr.setData(nomeja);
+    }//GEN-LAST:event_jButton1MouseClicked
+
+    private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
+        // TODO add your handling code here:
+        nbr.setVisible(true);
+        pbr.setVisible(true);
+        
+    }//GEN-LAST:event_jButton2MouseClicked
 
     /**
      * @param args the command line arguments
