@@ -415,31 +415,43 @@ public class latian2 extends javax.swing.JFrame {
         
         double jml = abs+tugas+utss+uass;
         String gradee;
-        if (jml< 50)
+        if (jml< 50){
             gradee="E";
-        else if(jml < 60)
+        }else if(jml < 60){
             gradee="D";
-        else if(jml < 70)
+    }else if(jml < 70){
            gradee="C";
-        else if(jml< 80)
+    }else if(jml< 80){
             gradee="B";
-        else
-           gradee="A"; 
+    }else{
+           gradee="A";
+    }
           np.setText(""+jml);
           grade.setText(""+gradee);
           ttl=100000+300000+300000;
           total.setText(""+ttl);
-hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJenisKelamin\t: "+hasil.getText()+"\nJurusan\t: "+jrs.getSelectedItem()+"\nSemester\t: "+sms.getText()+"\nBiaya\t: "+biaya.getText()+"\nnilaiPemrograman\t: "+np.getText()+"\ngrade\t: "+grade.getText()+"\ntotal\t: "+total.getText());
+          
+          String Jk;
+        if(laki.isSelected()){
+            Jk=("Laki-laki");
+        }else if(cewe.isSelected()){
+            Jk=("Perempuan");
+        }else{
+            Jk=("-");
+        }
+        
+        
+          
+hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJenisKelamin\t: "+Jk+"\nJurusan\t: "+jrs.getSelectedItem()+"\nSemester\t: "+sms.getText()+"\nBiaya\t: "+biaya.getText()+"\nnilaiPemrograman  : "+np.getText()+"\ngrade\t: "+grade.getText()+"\ntotal\t: "+total.getText());
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void lakiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lakiActionPerformed
         // TODO add your handling code here:
-        hasil.setText("laki-laki");
+       
     }//GEN-LAST:event_lakiActionPerformed
 
     private void ceweActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ceweActionPerformed
         // TODO add your handling code here:
-        hasil.setText("perempuan");
     }//GEN-LAST:event_ceweActionPerformed
 
     private void gradeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gradeActionPerformed

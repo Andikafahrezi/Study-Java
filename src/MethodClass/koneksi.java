@@ -7,6 +7,8 @@ package MethodClass;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
+
 
 /**
  *
@@ -25,6 +27,10 @@ public class koneksi {
             System.err.println("Koneksi gagal"+e.getMessage());
         }
         return mysqlconfig;
+    }
+
+    static Statement createStatement() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
