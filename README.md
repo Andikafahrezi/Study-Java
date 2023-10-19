@@ -16,6 +16,7 @@
 - pertemuan 4 = menu, lattabel dan panggil
 - pertemuan 5 = koneksi dan makanan
 - pertemuan 6 = search
+- pertemuan 7 = report1
 
 #Package Latihan
 
@@ -24,5 +25,6 @@
 - pertemuan 4 = menu , login , pesanan , pembayaran dan help
 - pertemuan 5 = KoneksiRumah, menuRumah, tabelRumah dan rumah
 - pertemuan 6 = searchRumah
+- pertemuan 7 = coffe,coffe_stain,koneksiNilai,mahasiswaNilai,reportnilmhs
 
 Give Star if you like it..
