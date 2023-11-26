@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package latihan;
+package lat;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import javax.swing.JOptionPane;
@@ -39,7 +39,7 @@ public class searchRumah extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        tbl = new javax.swing.JTable();
+        Table = new javax.swing.JTable();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
@@ -52,7 +52,7 @@ public class searchRumah extends javax.swing.JFrame {
 
         jLabel2.setText("Area");
 
-        tbl.setModel(new javax.swing.table.DefaultTableModel(
+        Table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -60,15 +60,15 @@ public class searchRumah extends javax.swing.JFrame {
                 "NamaPesanan", "Area", "Tipe Rumah", "Luas Tanah", "Harga", "Lama Cicilan", "Cicilan/bulan"
             }
         ));
-        jScrollPane1.setViewportView(tbl);
-        if (tbl.getColumnModel().getColumnCount() > 0) {
-            tbl.getColumnModel().getColumn(0).setPreferredWidth(200);
-            tbl.getColumnModel().getColumn(1).setPreferredWidth(200);
-            tbl.getColumnModel().getColumn(2).setPreferredWidth(200);
-            tbl.getColumnModel().getColumn(3).setPreferredWidth(200);
-            tbl.getColumnModel().getColumn(4).setPreferredWidth(200);
-            tbl.getColumnModel().getColumn(5).setPreferredWidth(200);
-            tbl.getColumnModel().getColumn(6).setPreferredWidth(200);
+        jScrollPane1.setViewportView(Table);
+        if (Table.getColumnModel().getColumnCount() > 0) {
+            Table.getColumnModel().getColumn(0).setPreferredWidth(200);
+            Table.getColumnModel().getColumn(1).setPreferredWidth(200);
+            Table.getColumnModel().getColumn(2).setPreferredWidth(200);
+            Table.getColumnModel().getColumn(3).setPreferredWidth(200);
+            Table.getColumnModel().getColumn(4).setPreferredWidth(200);
+            Table.getColumnModel().getColumn(5).setPreferredWidth(200);
+            Table.getColumnModel().getColumn(6).setPreferredWidth(200);
         }
 
         jLabel3.setText("JML. RUMAH TERJUAL");
@@ -152,7 +152,7 @@ public class searchRumah extends javax.swing.JFrame {
             java.sql.Statement stm=conn.createStatement();
             java.sql.ResultSet rs=stm.executeQuery(sql);
             while(rs.next()){
-                tabelcd= (DefaultTableModel) tbl.getModel();
+                tabelcd= (DefaultTableModel) Table.getModel();
                 Object[] data =new Object[7];
                 data [0] =rs.getString("Namapesanan");
                 data [1] =rs.getString("Area");
@@ -207,6 +207,7 @@ public class searchRumah extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTable Table;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -217,6 +218,5 @@ public class searchRumah extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField namaTF;
-    private javax.swing.JTable tbl;
     // End of variables declaration//GEN-END:variables
 }

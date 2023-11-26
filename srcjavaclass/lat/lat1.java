@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package latihan;
+package lat;
 
 /**
  *
@@ -13,7 +13,7 @@ import java.util.Scanner;
 import java.util.HashMap;
 
 
-public class latian1 {
+public class lat1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int totalHarga = 0; // Inisialisasi variabel totalHarga dengan nilai 0
@@ -25,9 +25,9 @@ public class latian1 {
         
         HashMap<String, Integer> daftarBarang;
         daftarBarang = new HashMap<>();
-        daftarBarang.put("Baju", 50000);
-        daftarBarang.put("Celana", 70000);
-        daftarBarang.put("Sepatu", 150000);
+        daftarBarang.put("Topi", 500000);
+        daftarBarang.put("Kacamata", 7000);
+        daftarBarang.put("Cincin", 1500000);
 
         for (String barang : daftarBarang.keySet()) {
             System.out.println(barang + " - " + daftarBarang.get(barang));

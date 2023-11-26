@@ -61,12 +61,12 @@
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="jrs" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                              <Component id="biaya" min="-2" pref="104" max="-2" attributes="0"/>
+                              <Component id="txt4" min="-2" pref="104" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                              <Component id="sms" min="-2" pref="127" max="-2" attributes="0"/>
+                              <Component id="text3" min="-2" pref="127" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
@@ -91,10 +91,10 @@
                                       </Group>
                                       <EmptySpace min="59" pref="59" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="uts" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
-                                          <Component id="tgs" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
-                                          <Component id="absen" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
-                                          <Component id="uas" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                                          <Component id="txt9" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                                          <Component id="txt1" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                                          <Component id="txt5" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                                          <Component id="txt8" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
@@ -107,8 +107,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="np" min="-2" pref="117" max="-2" attributes="0"/>
-                                          <Component id="grade" min="-2" pref="117" max="-2" attributes="0"/>
+                                          <Component id="tetxt2" min="-2" pref="117" max="-2" attributes="0"/>
+                                          <Component id="txtt" min="-2" pref="117" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
@@ -135,12 +135,12 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="nama" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="nama1" min="-2" pref="191" max="-2" attributes="0"/>
+                              <Component id="text2" min="-2" pref="191" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="nim" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                              <Component id="nim1" min="-2" pref="191" max="-2" attributes="0"/>
+                              <Component id="txtnim" min="-2" pref="191" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -165,13 +165,13 @@
                                       <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="absen" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txt5" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="tgs" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt1" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="uts" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txt9" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -183,7 +183,7 @@
                               <EmptySpace pref="16" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                                  <Component id="uas" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt8" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                           </Group>
@@ -191,11 +191,11 @@
                               <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="nim" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="nim1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtnim" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="separate" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="nama1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text2" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="nama" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -226,7 +226,7 @@
                               <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="sms" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="text3" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -234,14 +234,14 @@
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jurusan" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jrs" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="biaya" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt4" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="np" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tetxt2" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="Grade" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="grade" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtt" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -292,11 +292,11 @@
         <Property name="text" type="java.lang.String" value="jenis-kelamin"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="nim1">
+    <Component class="javax.swing.JTextField" name="txtnim">
     </Component>
-    <Component class="javax.swing.JTextField" name="nama1">
+    <Component class="javax.swing.JTextField" name="text2">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nama1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="text2ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="nama">
@@ -348,9 +348,9 @@
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JTextField" name="biaya">
+    <Component class="javax.swing.JTextField" name="txt4">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="biayaActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt4ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
@@ -388,28 +388,28 @@
         <Property name="text" type="java.lang.String" value="nilai uas"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="absen">
+    <Component class="javax.swing.JTextField" name="txt5">
     </Component>
-    <Component class="javax.swing.JTextField" name="tgs">
+    <Component class="javax.swing.JTextField" name="txt1">
     </Component>
-    <Component class="javax.swing.JTextField" name="uts">
+    <Component class="javax.swing.JTextField" name="txt9">
     </Component>
-    <Component class="javax.swing.JTextField" name="uas">
+    <Component class="javax.swing.JTextField" name="txt8">
     </Component>
-    <Component class="javax.swing.JTextField" name="np">
+    <Component class="javax.swing.JTextField" name="tetxt2">
       <Properties>
         <Property name="text" type="java.lang.String" value=" "/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="npActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tetxt2ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="grade">
+    <Component class="javax.swing.JTextField" name="txtt">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gradeActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txttActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="sms">
+    <Component class="javax.swing.JTextField" name="text3">
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
       <AuxValues>
@@ -418,7 +418,7 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTextArea" name="hasil">
+        <Component class="javax.swing.JTextArea" name="jumlah">
           <Properties>
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>

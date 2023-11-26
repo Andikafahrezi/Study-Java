@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MethodClass;
+package Tugas;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -14,11 +14,11 @@ import java.sql.Statement;
  *
  * @author lenovo
  */
-public class koneksi {
+public class KoneksiRumah {
     private static Connection mysqlconfig;
     public static Connection configDB(){
         try {
-            String url= "jdbc:mysql://localhost/penjualan_makanan";
+            String url= "jdbc:mysql://localhost/penjualanRumah";
             String user="root";
             String pass="";
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());

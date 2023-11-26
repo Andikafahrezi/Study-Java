@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package latihan;
+package lat;
 
 /**
  *
  * @author lenovo
  */
-public class latian2 extends javax.swing.JFrame {
+public class lat2 extends javax.swing.JFrame {
 
     /**
      * Creates new form latian2
      */
-    public latian2() {
+    public lat2() {
         initComponents();
     }
 
@@ -31,14 +31,14 @@ public class latian2 extends javax.swing.JFrame {
         buttonGroup2 = new javax.swing.ButtonGroup();
         nim = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        nim1 = new javax.swing.JTextField();
-        nama1 = new javax.swing.JTextField();
+        txtnim = new javax.swing.JTextField();
+        text2 = new javax.swing.JTextField();
         nama = new javax.swing.JLabel();
         cewe = new javax.swing.JRadioButton();
         laki = new javax.swing.JRadioButton();
         jurusan = new javax.swing.JLabel();
         jrs = new javax.swing.JComboBox<>();
-        biaya = new javax.swing.JTextField();
+        txt4 = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
@@ -46,15 +46,15 @@ public class latian2 extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         Grade = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        absen = new javax.swing.JTextField();
-        tgs = new javax.swing.JTextField();
-        uts = new javax.swing.JTextField();
-        uas = new javax.swing.JTextField();
-        np = new javax.swing.JTextField();
-        grade = new javax.swing.JTextField();
-        sms = new javax.swing.JTextField();
+        txt5 = new javax.swing.JTextField();
+        txt1 = new javax.swing.JTextField();
+        txt9 = new javax.swing.JTextField();
+        txt8 = new javax.swing.JTextField();
+        tetxt2 = new javax.swing.JTextField();
+        txtt = new javax.swing.JTextField();
+        text3 = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
-        hasil = new javax.swing.JTextArea();
+        jumlah = new javax.swing.JTextArea();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -73,9 +73,9 @@ public class latian2 extends javax.swing.JFrame {
 
         jLabel2.setText("jenis-kelamin");
 
-        nama1.addActionListener(new java.awt.event.ActionListener() {
+        text2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                nama1ActionPerformed(evt);
+                text2ActionPerformed(evt);
             }
         });
 
@@ -106,9 +106,9 @@ public class latian2 extends javax.swing.JFrame {
             }
         });
 
-        biaya.addActionListener(new java.awt.event.ActionListener() {
+        txt4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                biayaActionPerformed(evt);
+                txt4ActionPerformed(evt);
             }
         });
 
@@ -126,22 +126,22 @@ public class latian2 extends javax.swing.JFrame {
 
         jLabel11.setText("nilai uas");
 
-        np.setText(" ");
-        np.addActionListener(new java.awt.event.ActionListener() {
+        tetxt2.setText(" ");
+        tetxt2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                npActionPerformed(evt);
+                tetxt2ActionPerformed(evt);
             }
         });
 
-        grade.addActionListener(new java.awt.event.ActionListener() {
+        txtt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gradeActionPerformed(evt);
+                txttActionPerformed(evt);
             }
         });
 
-        hasil.setColumns(20);
-        hasil.setRows(5);
-        jScrollPane1.setViewportView(hasil);
+        jumlah.setColumns(20);
+        jumlah.setRows(5);
+        jScrollPane1.setViewportView(jumlah);
 
         jButton1.setText("Hitung");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -217,11 +217,11 @@ public class latian2 extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(jrs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(48, 48, 48)
-                                .addComponent(biaya, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(txt4, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel5)
                                 .addGap(31, 31, 31)
-                                .addComponent(sms, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(text3, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(125, 125, 125)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -240,10 +240,10 @@ public class latian2 extends javax.swing.JFrame {
                                                 .addGap(41, 41, 41)))
                                         .addGap(59, 59, 59)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(uts, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(tgs, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(absen, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(uas, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(txt9, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txt1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txt5, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txt8, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addComponent(jLabel7))
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
@@ -252,8 +252,8 @@ public class latian2 extends javax.swing.JFrame {
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(148, 148, 148)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(np, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(grade, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(tetxt2, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtt, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(139, 139, 139)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -271,11 +271,11 @@ public class latian2 extends javax.swing.JFrame {
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addComponent(nama)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(nama1, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(text2, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addComponent(nim)
                                 .addGap(34, 34, 34)
-                                .addComponent(nim1, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(txtnim, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
@@ -293,12 +293,12 @@ public class latian2 extends javax.swing.JFrame {
                                         .addGap(62, 62, 62)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(jLabel6)
-                                            .addComponent(absen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(txt5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(18, 18, 18)
-                                        .addComponent(tgs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(txt1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(uts, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txt9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(jLabel8)))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(104, 104, 104)
@@ -306,16 +306,16 @@ public class latian2 extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel11)
-                                    .addComponent(uas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(txt8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(28, 28, 28))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(35, 35, 35)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(nim)
-                                    .addComponent(nim1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(txtnim, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, Short.MAX_VALUE)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(nama1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(text2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(nama))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
@@ -337,19 +337,19 @@ public class latian2 extends javax.swing.JFrame {
                                 .addGap(70, 70, 70)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel5)
-                                    .addComponent(sms, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(text3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jurusan)
                                     .addComponent(jrs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(biaya, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txt4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jLabel7)
-                                    .addComponent(np, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(tetxt2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(Grade)
-                                    .addComponent(grade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(txtt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(54, 54, 54)
@@ -379,33 +379,33 @@ public class latian2 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void nama1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nama1ActionPerformed
+    private void text2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_text2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_nama1ActionPerformed
+    }//GEN-LAST:event_text2ActionPerformed
 
-    private void npActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_npActionPerformed
+    private void tetxt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tetxt2ActionPerformed
         // TODO add your handling code here:
         
-    }//GEN-LAST:event_npActionPerformed
+    }//GEN-LAST:event_tetxt2ActionPerformed
 
     private void jrsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jrsActionPerformed
         // 9TODO add your handling code here:
         if (jrs.getSelectedIndex()==1)
-            biaya.setText("300000");
+            txt4.setText("300000");
         else if(jrs.getSelectedIndex()==1)
-            biaya.setText("200000");
+            txt4.setText("200000");
         else
-            biaya.setText("250000");
+            txt4.setText("250000");
     }//GEN-LAST:event_jrsActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code he
         int tugas,utss,uass,ttl ;
         double abs;
-        abs=Integer.parseInt(absen.getText());
-        tugas=Integer.parseInt(tgs.getText());
-        utss=Integer.parseInt(uts.getText());
-        uass=Integer.parseInt(uas.getText());
+        abs=Integer.parseInt(txt5.getText());
+        tugas=Integer.parseInt(txt1.getText());
+        utss=Integer.parseInt(txt9.getText());
+        uass=Integer.parseInt(txt8.getText());
         
         abs=((abs/21)*0.1)*100;
         int abss=(int)abs;
@@ -426,8 +426,8 @@ public class latian2 extends javax.swing.JFrame {
     }else{
            gradee="A";
     }
-          np.setText(""+jml);
-          grade.setText(""+gradee);
+          tetxt2.setText(""+jml);
+          txtt.setText(""+gradee);
           ttl=100000+300000+300000;
           total.setText(""+ttl);
           
@@ -442,7 +442,7 @@ public class latian2 extends javax.swing.JFrame {
         
         
           
-hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJenisKelamin\t: "+Jk+"\nJurusan\t: "+jrs.getSelectedItem()+"\nSemester\t: "+sms.getText()+"\nBiaya\t: "+biaya.getText()+"\nnilaiPemrograman  : "+np.getText()+"\ngrade\t: "+grade.getText()+"\ntotal\t: "+total.getText());
+jumlah.setText("Nim\t: "+txtnim.getText()+"\nnama\t: "+text2.getText()+"\nJenisKelamin\t: "+Jk+"\nJurusan\t: "+jrs.getSelectedItem()+"\nSemester\t: "+text3.getText()+"\nBiaya\t: "+txt4.getText()+"\nnilaiPemrograman  : "+tetxt2.getText()+"\ngrade\t: "+txtt.getText()+"\ntotal\t: "+total.getText());
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void lakiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lakiActionPerformed
@@ -454,14 +454,14 @@ hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJenisKela
         // TODO add your handling code here:
     }//GEN-LAST:event_ceweActionPerformed
 
-    private void gradeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gradeActionPerformed
+    private void txttActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txttActionPerformed
         // TODO add your handling code here:
         String gradee;
-        gradee="dwfd";
-        grade.setText(""+gradee);
+        gradee="d";
+        txtt.setText(""+gradee);
         
      
-    }//GEN-LAST:event_gradeActionPerformed
+    }//GEN-LAST:event_txttActionPerformed
 
     private void regActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regActionPerformed
         // TODO add your handling code here:
@@ -491,9 +491,9 @@ hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJenisKela
         // TODO add your handling code here:
     }//GEN-LAST:event_totalActionPerformed
 
-    private void biayaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biayaActionPerformed
+    private void txt4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_biayaActionPerformed
+    }//GEN-LAST:event_txt4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -513,8 +513,9 @@ hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJenisKela
                 }
             }
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(latian2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(lat2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
         
         //</editor-fold>
@@ -522,22 +523,18 @@ hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJenisKela
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new latian2().setVisible(true);
+                new lat2().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Grade;
-    private javax.swing.JTextField absen;
-    private javax.swing.JTextField biaya;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JRadioButton cewe;
     private javax.swing.JCheckBox cuas;
     private javax.swing.JCheckBox cuts;
-    private javax.swing.JTextField grade;
-    private javax.swing.JTextArea hasil;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -553,19 +550,23 @@ hasil.setText("Nim\t: "+nim1.getText()+"\nnama\t: "+nama1.getText()+"\nJenisKela
     private javax.swing.JTextField jreg;
     private javax.swing.JComboBox<String> jrs;
     private javax.swing.JTextField juas;
+    private javax.swing.JTextArea jumlah;
     private javax.swing.JLabel jurusan;
     private javax.swing.JTextField juts;
     private javax.swing.JRadioButton laki;
     private javax.swing.JLabel nama;
-    private javax.swing.JTextField nama1;
     private javax.swing.JLabel nim;
-    private javax.swing.JTextField nim1;
-    private javax.swing.JTextField np;
     private javax.swing.JCheckBox reg;
-    private javax.swing.JTextField sms;
-    private javax.swing.JTextField tgs;
+    private javax.swing.JTextField tetxt2;
+    private javax.swing.JTextField text2;
+    private javax.swing.JTextField text3;
     private javax.swing.JTextField total;
-    private javax.swing.JTextField uas;
-    private javax.swing.JTextField uts;
+    private javax.swing.JTextField txt1;
+    private javax.swing.JTextField txt4;
+    private javax.swing.JTextField txt5;
+    private javax.swing.JTextField txt8;
+    private javax.swing.JTextField txt9;
+    private javax.swing.JTextField txtnim;
+    private javax.swing.JTextField txtt;
     // End of variables declaration//GEN-END:variables
 }

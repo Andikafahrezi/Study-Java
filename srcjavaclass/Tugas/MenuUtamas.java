@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MethodClass;
+package Tugas;
 import java.awt.Component;
 
 /**
  *
  * @author lenovo
  */
-public class menu extends javax.swing.JFrame {
+public class MenuUtamas extends javax.swing.JFrame {
 
     /**
      * Creates new form menu
      */
-    public menu() {
+    public MenuUtamas() {
         initComponents();
     }
 
@@ -38,8 +38,6 @@ public class menu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("menu Utama");
-
-        jDesktopPane1.setBackground(new java.awt.Color(0, 0, 0));
 
         javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
         jDesktopPane1.setLayout(jDesktopPane1Layout);
@@ -104,7 +102,7 @@ public class menu extends javax.swing.JFrame {
 
     private void cbpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbpActionPerformed
         // TODO add your handling code here:
-        Lattabel sub = new Lattabel();
+        Table sub = new Table();
         sub.setVisible(true);
     }//GEN-LAST:event_cbpActionPerformed
 
@@ -125,20 +123,21 @@ public class menu extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuUtamas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuUtamas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuUtamas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuUtamas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new menu().setVisible(true);
+                new MenuUtamas().setVisible(true);
             }
         });
     }

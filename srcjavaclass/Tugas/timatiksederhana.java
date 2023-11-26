@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MethodClass;
+package Tugas;
 
 /**
  *
  * @author lenovo
  */
-public class hitung extends javax.swing.JFrame {
+public class timatiksederhana extends javax.swing.JFrame {
 
     /**
      * Creates new form hitung
      */
-    public hitung() {
+    public timatiksederhana() {
         initComponents();
     }
 
@@ -34,7 +34,7 @@ public class hitung extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         nil1 = new javax.swing.JTextField();
         nil2 = new javax.swing.JTextField();
-        jml = new javax.swing.JTextField();
+        hasil = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         cb1 = new javax.swing.JRadioButton();
@@ -43,9 +43,9 @@ public class hitung extends javax.swing.JFrame {
         cb01 = new javax.swing.JCheckBox();
         cb02 = new javax.swing.JCheckBox();
         cb03 = new javax.swing.JCheckBox();
-        jml1 = new javax.swing.JTextField();
-        jml2 = new javax.swing.JTextField();
-        jml3 = new javax.swing.JTextField();
+        hasil1 = new javax.swing.JTextField();
+        hasil2 = new javax.swing.JTextField();
+        hasil3 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -61,9 +61,9 @@ public class hitung extends javax.swing.JFrame {
             }
         });
 
-        jml.addActionListener(new java.awt.event.ActionListener() {
+        hasil.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jmlActionPerformed(evt);
+                hasilActionPerformed(evt);
             }
         });
 
@@ -141,7 +141,7 @@ public class hitung extends javax.swing.JFrame {
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addComponent(jLabel3)
                                 .addGap(51, 51, 51)
-                                .addComponent(jml))
+                                .addComponent(hasil))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING)
@@ -163,9 +163,9 @@ public class hitung extends javax.swing.JFrame {
                             .addComponent(cb03))
                         .addGap(35, 35, 35)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jml3, javax.swing.GroupLayout.DEFAULT_SIZE, 115, Short.MAX_VALUE)
-                            .addComponent(jml2)
-                            .addComponent(jml1))))
+                            .addComponent(hasil3, javax.swing.GroupLayout.DEFAULT_SIZE, 115, Short.MAX_VALUE)
+                            .addComponent(hasil2)
+                            .addComponent(hasil1))))
                 .addContainerGap(27, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -186,7 +186,7 @@ public class hitung extends javax.swing.JFrame {
                         .addGap(45, 45, 45)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel3)
-                            .addComponent(jml, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(hasil, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(32, 32, 32)
                         .addComponent(cb3)))
@@ -202,16 +202,16 @@ public class hitung extends javax.swing.JFrame {
                                 .addGap(60, 60, 60)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(cb01)
-                                    .addComponent(jml1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(hasil1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(43, 43, 43)
                         .addComponent(cb02))
                     .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jml2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(hasil2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(36, 36, 36)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cb03)
-                    .addComponent(jml3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(hasil3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(122, Short.MAX_VALUE))
         );
 
@@ -227,7 +227,7 @@ public class hitung extends javax.swing.JFrame {
         n1=Integer.parseInt(nil1.getText());
         n2=Integer.parseInt(nil2.getText());
         hs=n1+n2;
-        jml.setText(""+hs);
+        hasil.setText(""+hs);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void cb1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb1ActionPerformed
@@ -236,7 +236,7 @@ public class hitung extends javax.swing.JFrame {
         n1=Integer.parseInt(nil1.getText());
         n2=Integer.parseInt(nil2.getText());
         hs=n1+n2;
-        jml.setText(""+hs);
+        hasil.setText(""+hs);
     }//GEN-LAST:event_cb1ActionPerformed
 
     private void cb2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb2ActionPerformed
@@ -245,7 +245,7 @@ public class hitung extends javax.swing.JFrame {
         n1=Integer.parseInt(nil1.getText());
         n2=Integer.parseInt(nil2.getText());
         hs=n1-n2;
-        jml.setText(""+hs);
+        hasil.setText(""+hs);
     }//GEN-LAST:event_cb2ActionPerformed
 
     private void cb3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb3ActionPerformed
@@ -254,7 +254,7 @@ public class hitung extends javax.swing.JFrame {
         n1=Integer.parseInt(nil1.getText());
         n2=Integer.parseInt(nil2.getText());
         hs=n1*n2;
-        jml.setText(""+hs);
+        hasil.setText(""+hs);
     }//GEN-LAST:event_cb3ActionPerformed
 
     private void cb01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb01ActionPerformed
@@ -264,9 +264,9 @@ public class hitung extends javax.swing.JFrame {
         n2=Integer.parseInt(nil2.getText());
         hs=n1+n2;
         if(cb01.isSelected())
-            jml1.setText(""+hs);
+            hasil1.setText(""+hs);
         else
-            jml1.setText("");    
+            hasil1.setText("");    
     }//GEN-LAST:event_cb01ActionPerformed
 
     private void cb02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb02ActionPerformed
@@ -276,9 +276,9 @@ public class hitung extends javax.swing.JFrame {
         n2=Integer.parseInt(nil2.getText());
         hs=n1-n2;
         if(cb02.isSelected())
-            jml2.setText(""+hs);
+            hasil2.setText(""+hs);
         else
-            jml2.setText(""); 
+            hasil2.setText(""); 
     }//GEN-LAST:event_cb02ActionPerformed
 
     private void cb03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb03ActionPerformed
@@ -288,14 +288,14 @@ public class hitung extends javax.swing.JFrame {
         n2=Integer.parseInt(nil2.getText());
         hs=n1*n2;
         if(cb03.isSelected())
-            jml3.setText(""+hs);
+            hasil3.setText(""+hs);
         else
-            jml3.setText(""); 
+            hasil3.setText(""); 
     }//GEN-LAST:event_cb03ActionPerformed
 
-    private void jmlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmlActionPerformed
+    private void hasilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hasilActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jmlActionPerformed
+    }//GEN-LAST:event_hasilActionPerformed
 
     /**
      * @param args the command line arguments
@@ -314,20 +314,21 @@ public class hitung extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(hitung.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(timatiksederhana.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(hitung.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(timatiksederhana.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(hitung.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(timatiksederhana.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(hitung.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(timatiksederhana.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new hitung().setVisible(true);
+                new timatiksederhana().setVisible(true);
             }
         });
     }
@@ -341,15 +342,15 @@ public class hitung extends javax.swing.JFrame {
     private javax.swing.JRadioButton cb1;
     private javax.swing.JRadioButton cb2;
     private javax.swing.JRadioButton cb3;
+    private javax.swing.JTextField hasil;
+    private javax.swing.JTextField hasil1;
+    private javax.swing.JTextField hasil2;
+    private javax.swing.JTextField hasil3;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JTextField jml;
-    private javax.swing.JTextField jml1;
-    private javax.swing.JTextField jml2;
-    private javax.swing.JTextField jml3;
     private javax.swing.JTextField nil1;
     private javax.swing.JTextField nil2;
     // End of variables declaration//GEN-END:variables

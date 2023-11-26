@@ -4,8 +4,8 @@
 
 Project srcjavaclass
 
-- package methodclass adalah tugas yang di praktekan secara langsung pada saat di lab
-- package latihan adalah tugas latihan yang berada di akhir modul pertemuan
+- package Tugas adalah tugas yang di praktekan secara langsung pada saat di lab
+- package lat adalah tugas latihan yang berada di akhir modul pertemuan
 - package image berisi gambar yang digunakan untuk keperluan package methodclass dan package latihan
 
 Project srcjavaweb
@@ -17,21 +17,21 @@ Project srcjavaweb
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 @berikut namafile dan pertemuannya pada project srcjavaclass
 
-#Package MethodClass
+#Package Tugas
 
 - Pertemuan 2 = datamhs dan mhs
-- pertemuan 3 = hitung
-- pertemuan 4 = menu, lattabel dan panggil
-- pertemuan 5 = koneksi dan makanan
+- pertemuan 3 = timatiksederhana
+- pertemuan 4 = MenuUtamas, Table dan MenuPanggil
+- pertemuan 5 = Rumah dan KoneksiRumah/
 - pertemuan 6 = search
 - pertemuan 7 = report1
-- pertemuan 8 = p12 dan KoneksiBarang
+- pertemuan 8 = pertemuan12 dan KoneksiBarang
 
-#Package Latihan
+#Package Lat
 
-- pertemuan 2 = latihan1
-- pertemuan 3 = latihan2
-- pertemuan 4 = menu , login , pesanan , pembayaran dan help
+- pertemuan 2 = lat1
+- pertemuan 3 = lat2
+- pertemuan 4 = menu , masuk , pemesanan , pembayaran dan help
 - pertemuan 5 = KoneksiRumah, menuRumah, tabelRumah dan rumah
 - pertemuan 6 = searchRumah
 - pertemuan 7 = coffe,coffe_stain,koneksiNilai,mahasiswaNilai,reportnilmhs

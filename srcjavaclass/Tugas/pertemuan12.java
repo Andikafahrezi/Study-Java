@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MethodClass;
+package Tugas;
 
 import java.sql.Connection;
 import javax.swing.JOptionPane;
@@ -32,13 +32,13 @@ import net.sf.jasperreports.view.JasperViewer;
  *
  * @author DIKA
  */
-public class p12 extends javax.swing.JFrame {
+public class pertemuan12 extends javax.swing.JFrame {
     private DefaultTableModel mod;
     Object[] data=new Object[3];
     
     void judulTabel(){
         mod=new DefaultTableModel();
-        tabel.setModel(mod);
+        Table.setModel(mod);
         mod.addColumn("Kode Barang");
         mod.addColumn("Nama Barang");
         mod.addColumn("Harga Barang");        
@@ -47,7 +47,7 @@ public class p12 extends javax.swing.JFrame {
      * 
      * Creates new form p12
      */
-    public p12() {
+    public pertemuan12() {
         initComponents();
         judulTabel();
     }
@@ -65,10 +65,10 @@ public class p12 extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        tabel = new javax.swing.JTable();
-        t1 = new javax.swing.JTextField();
-        t3 = new javax.swing.JTextField();
-        t2 = new javax.swing.JTextField();
+        Table = new javax.swing.JTable();
+        txt1 = new javax.swing.JTextField();
+        txt3 = new javax.swing.JTextField();
+        txt2 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
@@ -80,7 +80,7 @@ public class p12 extends javax.swing.JFrame {
 
         jLabel4.setText("jLabel2");
 
-        tabel.setModel(new javax.swing.table.DefaultTableModel(
+        Table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -88,23 +88,23 @@ public class p12 extends javax.swing.JFrame {
                 "Kode Barang", "Nama Barang", "Harga Barang"
             }
         ));
-        jScrollPane1.setViewportView(tabel);
+        jScrollPane1.setViewportView(Table);
 
-        t1.addActionListener(new java.awt.event.ActionListener() {
+        txt1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                t1ActionPerformed(evt);
+                txt1ActionPerformed(evt);
             }
         });
 
-        t3.addActionListener(new java.awt.event.ActionListener() {
+        txt3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                t3ActionPerformed(evt);
+                txt3ActionPerformed(evt);
             }
         });
 
-        t2.addActionListener(new java.awt.event.ActionListener() {
+        txt2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                t2ActionPerformed(evt);
+                txt2ActionPerformed(evt);
             }
         });
 
@@ -137,20 +137,21 @@ public class p12 extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel4)
                                 .addGap(18, 18, 18)
-                                .addComponent(t3, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(t2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(txt3, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addComponent(jLabel2)
                                 .addGap(26, 26, 26)
-                                .addComponent(t1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(txt1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 290, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jButton2, javax.swing.GroupLayout.Alignment.TRAILING))
-                        .addGap(201, 201, 201))))
+                        .addGap(201, 201, 201))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addGap(18, 18, 18)
+                        .addComponent(txt2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(581, 581, 581))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -160,19 +161,19 @@ public class p12 extends javax.swing.JFrame {
                         .addGap(62, 62, 62)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
-                            .addComponent(t1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(txt1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(69, 69, 69)
                         .addComponent(jButton1)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(t2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txt2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(t3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel4)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(5, 5, 5)
@@ -185,23 +186,23 @@ public class p12 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void t1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t1ActionPerformed
+    private void txt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_t1ActionPerformed
+    }//GEN-LAST:event_txt1ActionPerformed
 
-    private void t3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t3ActionPerformed
+    private void txt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_t3ActionPerformed
+    }//GEN-LAST:event_txt3ActionPerformed
 
-    private void t2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t2ActionPerformed
+    private void txt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_t2ActionPerformed
+    }//GEN-LAST:event_txt2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         try {
-            String sql="INSERT INTO tbbarang VALUE('"+t1.getText()+"',"+"'"
-                    +t2.getText()+"',"+"'"+t3.getText()+"')";
+            String sql="INSERT INTO tbbarang VALUE('"+txt1.getText()+"',"+"'"
+                    +txt2.getText()+"',"+"'"+txt3.getText()+"')";
             java.sql.Connection conn=(Connection)KoneksiBarang.configDB();
             java.sql.PreparedStatement pst=conn.prepareStatement(sql);
             pst.execute();
@@ -210,9 +211,9 @@ public class p12 extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, e.getMessage());
 
         }   
-        data [0]=t1.getText();
-        data [1]=t2.getText();
-        data [2]=t3.getText();
+        data [0]=txt1.getText();
+        data [1]=txt2.getText();
+        data [2]=txt3.getText();
         mod.addRow(data);
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -268,35 +269,36 @@ public class p12 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(p12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pertemuan12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(p12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pertemuan12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(p12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pertemuan12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(p12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pertemuan12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new p12().setVisible(true);
+                new pertemuan12().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTable Table;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField t1;
-    private javax.swing.JTextField t2;
-    private javax.swing.JTextField t3;
-    private javax.swing.JTable tabel;
+    private javax.swing.JTextField txt1;
+    private javax.swing.JTextField txt2;
+    private javax.swing.JTextField txt3;
     // End of variables declaration//GEN-END:variables
 
 }

@@ -43,7 +43,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
-                              <Component id="jml" max="32767" attributes="0"/>
+                              <Component id="hasil" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -73,9 +73,9 @@
                       </Group>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jml3" alignment="0" pref="115" max="32767" attributes="0"/>
-                          <Component id="jml2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jml1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="hasil3" alignment="0" pref="115" max="32767" attributes="0"/>
+                          <Component id="hasil2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="hasil1" alignment="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -103,7 +103,7 @@
                       <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jml" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hasil" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -125,7 +125,7 @@
                               <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="cb01" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jml1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="hasil1" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -134,13 +134,13 @@
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jml2" min="-2" max="-2" attributes="0"/>
+                      <Component id="hasil2" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="cb03" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jml3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hasil3" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="122" max="32767" attributes="0"/>
           </Group>
@@ -170,9 +170,9 @@
     </Component>
     <Component class="javax.swing.JTextField" name="nil2">
     </Component>
-    <Component class="javax.swing.JTextField" name="jml">
+    <Component class="javax.swing.JTextField" name="hasil">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jmlActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hasilActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
@@ -254,11 +254,11 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb03ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="jml1">
+    <Component class="javax.swing.JTextField" name="hasil1">
     </Component>
-    <Component class="javax.swing.JTextField" name="jml2">
+    <Component class="javax.swing.JTextField" name="hasil2">
     </Component>
-    <Component class="javax.swing.JTextField" name="jml3">
+    <Component class="javax.swing.JTextField" name="hasil3">
     </Component>
   </SubComponents>
 </Form>

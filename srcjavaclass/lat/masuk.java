@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package latihan;
+package lat;
 import java.awt.Component;
 
 /**
  *
  * @author lenovo
  */
-public class login extends javax.swing.JFrame {
+public class masuk extends javax.swing.JFrame {
 
     /**
      * Creates new form login
      */
-    public login() {
+    public masuk() {
         initComponents();
     }
 
@@ -100,10 +100,10 @@ public class login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String username ="dika";
-        String password ="keren";
+        String username ="tugas";
+        String password ="1";
         if (username.equalsIgnoreCase(usrn.getText()) && password.equalsIgnoreCase(pswd.getText())){
-            Pesanan Tampil=new Pesanan();
+            pemesanan Tampil=new pemesanan();
             Tampil.setVisible(true);
         }else{
             javax.swing.JOptionPane.showMessageDialog(null,"MAAF USERNAME DAN PASSWORD YANG ANDA MASUKAN SALAH");
@@ -135,20 +135,21 @@ public class login extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(masuk.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(masuk.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(masuk.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(masuk.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new login().setVisible(true);
+                new masuk().setVisible(true);
             }
         });
     }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MethodClass;
+package Tugas;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import javax.swing.JOptionPane;
@@ -38,26 +38,26 @@ public final class Search extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        namaTF = new javax.swing.JTextField();
-        areaTF = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        txtnama = new javax.swing.JTextField();
+        txtarea = new javax.swing.JTextField();
+        cari = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        tbl = new javax.swing.JTable();
+        Table = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Namapemesanan");
+        jLabel1.setText("Nama pemesanan");
 
         jLabel2.setText("Area");
 
-        jButton1.setText("Cari");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        cari.setText("Cari");
+        cari.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                cariActionPerformed(evt);
             }
         });
 
-        tbl.setModel(new javax.swing.table.DefaultTableModel(
+        Table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -65,7 +65,7 @@ public final class Search extends javax.swing.JFrame {
                 "pesanan_minuman1", "area"
             }
         ));
-        jScrollPane1.setViewportView(tbl);
+        jScrollPane1.setViewportView(Table);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -80,10 +80,10 @@ public final class Search extends javax.swing.JFrame {
                                 .addComponent(jLabel1)
                                 .addGap(40, 40, 40)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(areaTF, javax.swing.GroupLayout.DEFAULT_SIZE, 140, Short.MAX_VALUE)
-                                    .addComponent(namaTF))
+                                    .addComponent(txtarea, javax.swing.GroupLayout.DEFAULT_SIZE, 140, Short.MAX_VALUE)
+                                    .addComponent(txtnama))
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton1))
+                                .addComponent(cari))
                             .addComponent(jLabel2)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(117, 117, 117)
@@ -96,12 +96,12 @@ public final class Search extends javax.swing.JFrame {
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(namaTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtnama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(areaTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
+                    .addComponent(txtarea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cari))
                 .addGap(80, 80, 80)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(286, Short.MAX_VALUE))
@@ -111,7 +111,7 @@ public final class Search extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     @SuppressWarnings("empty-statement")
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void cariActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cariActionPerformed
         // TODO add your handling code here:
 //        koneksi database;
 //           try{
@@ -140,15 +140,15 @@ public final class Search extends javax.swing.JFrame {
 //        }
          try{
             int no=1;
-            String sql= "Select * from minuman where pesanan_minuman like'%"+namaTF.getText()+"%'";
-            java.sql.Connection conn=(Connection)koneksi.configDB();
+            String sql= "Select * from Rumah where pesananRumah like'%"+txtnama.getText()+"%'";
+            java.sql.Connection conn=(Connection)KoneksiRumah.configDB();
             java.sql.Statement stm=conn.createStatement();
             java.sql.ResultSet rs=stm.executeQuery(sql);
             while(rs.next()){
-                tabelcd= (DefaultTableModel) tbl.getModel();
+                tabelcd= (DefaultTableModel) Table.getModel();
                 Object[] data =new Object[7];
-                data [0] =rs.getString("pesanan_minuman");
-                data [1] =rs.getString("Area");
+                data [0] =rs.getString("Pesanan_Rumah");
+                data [1] =rs.getString("area");
 ;
                 
                 tabelcd.addRow(data);   
@@ -161,7 +161,7 @@ public final class Search extends javax.swing.JFrame {
         }
     
         
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_cariActionPerformed
 
     /**
      * @param args the command line arguments
@@ -199,12 +199,12 @@ public final class Search extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField areaTF;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JTable Table;
+    private javax.swing.JButton cari;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField namaTF;
-    private javax.swing.JTable tbl;
+    private javax.swing.JTextField txtarea;
+    private javax.swing.JTextField txtnama;
     // End of variables declaration//GEN-END:variables
 }
