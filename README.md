@@ -29,7 +29,6 @@ Project srcjavaweb
 
 #Package Lat
 
-- pertemuan 2 = lat1
 - pertemuan 3 = lat2
 - pertemuan 4 = menu , masuk , pemesanan , pembayaran dan help
 - pertemuan 5 = KoneksiRumah, menuRumah, tabelRumah dan rumah
