@@ -1,7 +1,7 @@
 <%-- 
     Document   : index2
     Created on : Nov 19, 2023, 10:05:25 AM
-    Author     : DIKA
+    Author     : lenovo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -11,7 +11,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author DIKA
+ * @author lenovo
  */
 public class KoneksiBarang {
      private static Connection mysqlconfig;

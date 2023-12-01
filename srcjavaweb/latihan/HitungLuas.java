@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MethodClass;
-
+package lat;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -15,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author DIKA
+ * @author lenovo
  */
 @WebServlet(name = "HitungLuas", urlPatterns = {"/HitungLuas"})
 public class HitungLuas extends HttpServlet {

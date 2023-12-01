@@ -30,7 +30,7 @@ import net.sf.jasperreports.view.JasperViewer;
 
 /**
  *
- * @author DIKA
+ * @author lenovo
  */
 public class pertemuan12 extends javax.swing.JFrame {
     private DefaultTableModel mod;
