@@ -11,7 +11,8 @@ Project srcjavaweb
 - package methodclass adalah tugas yang di praktekan secara langsung pada saat di kelas
 - package web adalah jsp dari package methodclass dan package latihan
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++@berikut namafile dan pertemuannya pada project srcjavaclass
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@berikut namafile dan pertemuannya pada project srcjavaclass
 
 #Package Latihan
 
@@ -22,7 +23,8 @@ Project srcjavaweb
 - pertemuan 6 = searchRumah
 - pertemuan 7 = coffe,coffe_stain,koneksiNilai,mahasiswaNilai,reportnilmhs
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ @berikut namafile dan pertemuannya pada project srcjavaweb
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+@berikut namafile dan pertemuannya pada project srcjavaweb
 
 #Package MethodClass
 
