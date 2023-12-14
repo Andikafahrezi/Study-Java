@@ -1,4 +1,10 @@
- <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%-- 
+    Document   : index
+    Created on : Nov 8, 2023, 11:47:54 AM
+    Author     : DIKA
+--%> 
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : Validasi
     Created on : Nov 8, 2023, 11:49:55 AM
-    Author     : user
+    Author     : DIKA
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

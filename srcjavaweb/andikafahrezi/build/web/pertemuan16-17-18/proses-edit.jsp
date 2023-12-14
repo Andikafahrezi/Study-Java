@@ -1,4 +1,8 @@
-
+<%-- 
+    Document   : proses-edit
+    Created on : Nov 29, 2023, 11:47:54 AM
+    Author     : DIKA
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -26,9 +30,9 @@
                            ps.setString(3, alamat);
                            ps.setString(4, prodi);
                            int i=ps.executeUpdate();
-                           response.sendRedirect("index.jsp");
+                           response.sendRedirect("index5.jsp");
                        } catch (Exception e){
-                           response.sendRedirect("index.jsp");
+                           response.sendRedirect("index5.jsp");
                        }}
                    %>
                    
